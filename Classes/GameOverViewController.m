@@ -43,7 +43,7 @@
 	scoreLabel.font = [UIFont boldSystemFontOfSize:42];
 	scoreLabel.textAlignment = NSTextAlignmentCenter;
 	
-	[gameOverViewTemp release];
+//	[gameOverViewTemp release];
 	//[gameOver release];
 }
 
@@ -55,7 +55,7 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	[self.view removeFromSuperview];
-	[self release];
+//	[self release];
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -72,13 +72,14 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    scoreLabel = nil;
 }
 
-- (void)dealloc {
-	[scoreLabel release];
-
-    [super dealloc];
-}
+//- (void)dealloc {
+////	[scoreLabel release];
+//
+//    [super dealloc];
+//}
 
 
 @end

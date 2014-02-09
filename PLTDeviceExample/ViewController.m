@@ -311,7 +311,10 @@
             [self displayHideSplashScreen];
             
             // Create gameover screen
-            gameOverView = [[GameOverViewController alloc] initWithNibName:@"GameOverViewController" bundle:nil];
+            if(gameOverView == nil)
+            {
+                gameOverView = [[GameOverViewController alloc] initWithNibName:@"GameOverViewController" bundle:nil];
+            }
             
             // Check if we have a new high score.
             if(highScore < pointCount) {

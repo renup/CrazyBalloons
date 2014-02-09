@@ -21,7 +21,7 @@
 		42F9018017F11133009ABA3F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F9017F17F11133009ABA3F /* ExternalAccessory.framework */; };
 		AF139C7118A5F92400FD7861 /* libPLTDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8714C1819C64300447496 /* libPLTDevice.a */; };
 		AF139C7318A609D100FD7861 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF139C7218A609D100FD7861 /* SpriteKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		AF139C9C18A6C72A00FD7861 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C8A18A6C72A00FD7861 /* GameOverViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF139C9C18A6C72A00FD7861 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C8A18A6C72A00FD7861 /* GameOverViewController.m */; };
 		AF139C9D18A6C72B00FD7861 /* GameOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF139C8B18A6C72A00FD7861 /* GameOverViewController.xib */; };
 		AF139C9E18A6C72B00FD7861 /* SettingsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C8D18A6C72A00FD7861 /* SettingsWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AF139C9F18A6C72B00FD7861 /* SettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF139C8E18A6C72A00FD7861 /* SettingsWindow.xib */; };
