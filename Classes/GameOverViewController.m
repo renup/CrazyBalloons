@@ -36,7 +36,7 @@
 	gameOverText.center = CGPointMake(160, 90);
 	
 	scoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, 320, 70)];
-	scoreLabel.text = [NSString stringWithFormat:@"%d points", highScore];
+	scoreLabel.text = [NSString stringWithFormat:@"%d points", self.highScore];
 	[self.view addSubview:scoreLabel];
 	scoreLabel.textColor = [UIColor whiteColor];
 	scoreLabel.backgroundColor = [UIColor clearColor];

@@ -28,10 +28,10 @@
 - (void)subscribeToInfo;
 - (void)startFreeFallResetTimer;
 - (void)stopFreeFallResetTimer;
-- (void)freeFallResetTimer:(NSTimer *)theTimer;
+//- (void)freeFallResetTimer:(NSTimer *)theTimer;
 - (void)startTapsResetTimer;
 - (void)stopTapsResetTimer;
-- (void)tapsResetTimer:(NSTimer *)theTimer;
+//- (void)tapsResetTimer:(NSTimer *)theTimer;
 - (IBAction)calibrateOrientationButton:(id)sender;
 
 @property(nonatomic, strong)	PLTDevice				*device;
@@ -59,6 +59,10 @@
 @synthesize bonusTimer, isBonusTimer, updateTimer, scoreLabel, livesLabel, highScore, player, gamePaused, soundEffects, backgroundMusic;
 @synthesize adBannerView = _adBannerView;
 @synthesize bannerIsVisible;
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

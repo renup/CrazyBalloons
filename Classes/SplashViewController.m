@@ -15,7 +15,7 @@
 //
 
 #import "SplashViewController.h"
-#import "SpaceBubbleViewController.h"
+#import "ViewController.h"
 
 @implementation SplashViewController
 
@@ -67,7 +67,7 @@
 }
 
 - (void)dismiss {
-	SpaceBubbleViewController *controller = myCreator;
+	ViewController *controller = myCreator;
 	controller.gamePaused = NO;
 	
 	[self.view removeFromSuperview];

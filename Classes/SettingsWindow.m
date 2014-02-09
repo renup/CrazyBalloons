@@ -15,7 +15,7 @@
 //
 
 #import "SettingsWindow.h"
-#import "SpaceBubbleViewController.h"
+#import "ViewController.h"
 
 @implementation SettingsWindow
 
@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	SpaceBubbleViewController *creatorController = myCreator;
+	ViewController *creatorController = myCreator;
 	
 	backgroundSwitch.on = creatorController.backgroundMusic;
 	effectsSwitch.on = creatorController.soundEffects;
@@ -42,7 +42,7 @@
 -(IBAction)onBackgroundSwitch:(id)sender {
 	UISwitch *mySwitch = sender;
 	BOOL state = mySwitch.on;
-	SpaceBubbleViewController *creatorController = myCreator;
+	ViewController *creatorController = myCreator;
 	
 	creatorController.backgroundMusic = state;
 	
@@ -56,7 +56,7 @@
 -(IBAction)onEffectsSwitch:(id)sender {
 	UISwitch *mySwitch = sender;
 	BOOL state = mySwitch.on;
-	SpaceBubbleViewController *creatorController = myCreator;
+	ViewController *creatorController = myCreator;
 
 	creatorController.soundEffects = state;
 	

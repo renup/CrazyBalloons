@@ -26,8 +26,6 @@
 		AF139C9E18A6C72B00FD7861 /* SettingsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C8D18A6C72A00FD7861 /* SettingsWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AF139C9F18A6C72B00FD7861 /* SettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF139C8E18A6C72A00FD7861 /* SettingsWindow.xib */; };
 		AF139CA018A6C72B00FD7861 /* SoundEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C9018A6C72A00FD7861 /* SoundEffects.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF139CA118A6C72B00FD7861 /* SpaceBubbleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C9218A6C72A00FD7861 /* SpaceBubbleAppDelegate.m */; };
-		AF139CA218A6C72B00FD7861 /* SpaceBubbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C9418A6C72A00FD7861 /* SpaceBubbleViewController.m */; };
 		AF139CA318A6C72B00FD7861 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF139C9518A6C72A00FD7861 /* SplashView.xib */; };
 		AF139CA418A6C72B00FD7861 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C9718A6C72A00FD7861 /* SplashViewController.m */; };
 		AF139CA518A6C72B00FD7861 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = AF139C9918A6C72A00FD7861 /* Sprite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -127,10 +125,6 @@
 		AF139C8E18A6C72A00FD7861 /* SettingsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsWindow.xib; sourceTree = "<group>"; };
 		AF139C8F18A6C72A00FD7861 /* SoundEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffects.h; sourceTree = "<group>"; };
 		AF139C9018A6C72A00FD7861 /* SoundEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffects.m; sourceTree = "<group>"; };
-		AF139C9118A6C72A00FD7861 /* SpaceBubbleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceBubbleAppDelegate.h; sourceTree = "<group>"; };
-		AF139C9218A6C72A00FD7861 /* SpaceBubbleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceBubbleAppDelegate.m; sourceTree = "<group>"; };
-		AF139C9318A6C72A00FD7861 /* SpaceBubbleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceBubbleViewController.h; sourceTree = "<group>"; };
-		AF139C9418A6C72A00FD7861 /* SpaceBubbleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceBubbleViewController.m; sourceTree = "<group>"; };
 		AF139C9518A6C72A00FD7861 /* SplashView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
 		AF139C9618A6C72A00FD7861 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		AF139C9718A6C72A00FD7861 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
@@ -338,10 +332,6 @@
 				AF139C8E18A6C72A00FD7861 /* SettingsWindow.xib */,
 				AF139C8F18A6C72A00FD7861 /* SoundEffects.h */,
 				AF139C9018A6C72A00FD7861 /* SoundEffects.m */,
-				AF139C9118A6C72A00FD7861 /* SpaceBubbleAppDelegate.h */,
-				AF139C9218A6C72A00FD7861 /* SpaceBubbleAppDelegate.m */,
-				AF139C9318A6C72A00FD7861 /* SpaceBubbleViewController.h */,
-				AF139C9418A6C72A00FD7861 /* SpaceBubbleViewController.m */,
 				AF139C9518A6C72A00FD7861 /* SplashView.xib */,
 				AF139C9618A6C72A00FD7861 /* SplashViewController.h */,
 				AF139C9718A6C72A00FD7861 /* SplashViewController.m */,
@@ -559,8 +549,6 @@
 				425EC4B517E2881F0009FF93 /* ViewController.m in Sources */,
 				425EC4AC17E2881F0009FF93 /* AppDelegate.m in Sources */,
 				AF139CA418A6C72B00FD7861 /* SplashViewController.m in Sources */,
-				AF139CA218A6C72B00FD7861 /* SpaceBubbleViewController.m in Sources */,
-				AF139CA118A6C72B00FD7861 /* SpaceBubbleAppDelegate.m in Sources */,
 				425EC4A817E2881F0009FF93 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
