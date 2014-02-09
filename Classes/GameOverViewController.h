@@ -20,7 +20,7 @@
 
 @interface GameOverViewController : UIViewController {
 	Sprite *gameOverText;
-//	NSUInteger highScore;
+	NSUInteger highScore;
 	UILabel *scoreLabel;
 }
 

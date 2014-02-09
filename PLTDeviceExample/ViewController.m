@@ -315,10 +315,10 @@
             [self displayHideSplashScreen];
             
             // Create gameover screen
-            if(gameOverView == nil)
-            {
+//            if(gameOverView == nil)
+//            {
                 gameOverView = [[GameOverViewController alloc] initWithNibName:@"GameOverViewController" bundle:nil];
-            }
+           // }
             
             // Check if we have a new high score.
             if(highScore < pointCount) {
@@ -329,8 +329,11 @@
                 PlaySoundEffect(Sound_Alien);
             }
             
+            //TODO: uncomment: [gameOverView setHighScore:self.highScore]; to keep track of high score
             // Pass the high score to our gameover viewcontroller so it can display it
-            [gameOverView setHighScore:self.highScore];
+//            [gameOverView setHighScore:self.highScore];
+            [gameOverView setHighScore:pointCount];
+
             
             // Display gameover screen
             [self.view addSubview:gameOverView.view];
@@ -474,6 +477,7 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
     self.adBannerView = nil;
+//    gameOverView.highScore = nil;
 
 }
 

@@ -50,9 +50,9 @@
 //    [application setStatusBarHidden:YES animated:NO];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
-    
+//
     NSString *filePath = [self myFilePath:@"HighScore.archive"];
-    
+
     if([fileManager fileExistsAtPath:filePath]) {
         NSNumber *aNumber = [NSKeyedUnarchiver unarchiveObjectWithFile:[self myFilePath:@"HighScore.archive"]];
         viewController.highScore = [aNumber unsignedIntegerValue];

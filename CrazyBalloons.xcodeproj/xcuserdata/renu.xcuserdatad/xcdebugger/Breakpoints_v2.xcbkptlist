@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PLTDeviceExample/ViewController.m"
-            timestampString = "413600145.75789"
+            timestampString = "413602496.561937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "520"
-            endingLineNumber = "520"
+            startingLineNumber = "524"
+            endingLineNumber = "524"
             landmarkName = "-subscribeToInfo"
             landmarkType = "5">
          </BreakpointContent>
